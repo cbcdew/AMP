@@ -19,6 +19,7 @@ class TestLink:
         title = "Sample page - lambdatest.com"
         assert title == driver.title
 
+
     def test_item(self, driver):
         """
         Verify item submission
